@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: #a7a7a7;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
