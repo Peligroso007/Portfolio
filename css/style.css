@@ -1,6 +1,7 @@
 /* this is for the font that has been used in this website  */
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 * {
     margin: 0;
@@ -14,6 +15,11 @@
     height: 100vh;
     position: relative;
     float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    white-space: nowrap;
+    z-index: 5;
     /* color: white; */
 }
 
@@ -31,6 +37,7 @@
 .logo a {
     text-decoration: none;
     color: rgb(214, 233, 223);
+    cursor: pointer;
 }
 
 .logo span {
@@ -41,20 +48,100 @@
 /* this is for the hello part in the website */
 
 .greeting {
+    position: relative;
     color: rgb(52, 144, 230, 0.5);;
     font-family: 'Varela Round', sans-serif;
-    margin: 30% 0% 0% 20%;
+    margin: 25% 0% 0% 20%;
     font-size: 30px;
 }
 
 /* this is for the i'm milan part  */
 .intro {
-    margin: 0% 0% 0% 20%;
+    position: relative;
+    margin-top: 17%;
+    margin-left: 20%;
     color: rgb(214, 233, 223);
     font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 120px;
+    font-size: 170px;
     letter-spacing: 15px;
+    padding-bottom: 0;
+    display: inline-block;
+    line-height: 0%;
 }
+
+/* this is for the skills displayed in the landing page. */
+.skills {
+    font-family: 'Syne Mono', monospace;
+    color: rgb(214, 233, 223);
+    font-size: 30px;
+    margin: 10% 0% 0% 20%;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+/* this is for the hire me button style in the landing page.  */
+.hire {
+    background-color: transparent;
+    border: 0.1px solid rgb(214, 233, 223);
+    color: rgb(214, 233, 223);
+    padding: 25px 40px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4% 0% 0% 20%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.hire { 
+    color: rgb(214, 233, 223);; 
+    border: 2px solid rgb(214, 233, 223);
+}
+  
+  /* this is for the hire me page in the landing page in hover state  */
+.hire:hover {
+    background-color: rgb(214, 233, 223);
+    color: black;
+}
+
+
+
+.social {
+    margin: 20% 0% 0% 20%;
+}
+/* this is for the social icon on the landing page  */
+.social ul li {
+    margin-right: 4%;
+    border: 1px solid rgb(214, 233, 223);
+    display: inline-block;
+    /* padding: 15px; */
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+.social ul li a {
+    color: rgb(214, 233, 223);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this is for the image of the person div */
 .Picture {
@@ -72,8 +159,40 @@
 
 /* this is for the side menu div */
 .menu {
+    position: relative;
     float: right;
     background: rgb(0, 0, 0);
     width: 7%;
     height: 100vh;
+    text-align: center;
+}
+
+.menu ul {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    list-style-type: none;
+    
+}
+.menu ul li {
+    position: relative;
+    width: 100%; 
+    text-align:center;
+    transition-duration: 0.6s;
+}
+
+.menu ul li a {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(214, 233, 223);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: block;
+    padding: 20px;
+    margin: auto;
 }
