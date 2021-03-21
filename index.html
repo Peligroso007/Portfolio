@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -16,29 +17,29 @@
         <div class="overlay"></div>
 
         <!-- this is the logo -->
-        <h2 class="logo"><a href="#">Milan.<span>me</span></a></h2>
+        <h2 class="logo"><a href="index.html">Milan.<span>me</span></a></h2>
         <div class="detail">
-            <h1 class="greeting">HELLO</h1>
+            <h1 class="greeting">HELLO,</h1>
             <h3 class="intro">I'm Milan</h3>
 
             <!-- this is for skills -->
-            <p class="description">
-                <ul>
+            <p>
+                <ul class="skills">
                     <li>I'm FullStack Web Developer</li>
                     <li>I'm Begginer in Machine Learning</li>
                     <li>I'm Graphic Designer</li>
                 </ul>
             </p>
-            <button>HIRE ME</button>
+            <button class="hire">HIRE ME</button>
         </div>
 
         <!-- this is the social icon -->
         <div class="social">
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li id="link" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="https://www.facebook.com/milan.bashyal.737" target="_blank" id="icon" class="fa fa-facebook"></a></li>
+                <li id="link" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="https://www.instagram.com/milan__bashyal/" target="_blank" id="icon" class="fa fa-instagram"></a></li>
+                <li id="link" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="https://twitter.com/Milan__Bashyal" target="_blank" id="icon" class="fa fa-twitter"></a></li>
+                <li id="link" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="https://www.linkedin.com/in/milan-bashyal-35975a167/" target="_blank" id="icon" class="fa fa-linkedin"></a></li>
             </ul>
         </div>
     </section>
@@ -51,11 +52,12 @@
     <section class="menu">
         <!-- this is menu button -->
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="#">Home</a></li>
+            <li onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="#">About Me</a></li>
+            <li onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="#">Projects</a></li>
+            <li onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="#">Contact</a></li>
         </ul>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
