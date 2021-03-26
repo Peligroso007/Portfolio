@@ -6,12 +6,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is the content in the landing page  */
+.content {
+    width: 93%;
+    height: 100vh;
+    float: left;
 }
 
 /* this is for the box design for the details div */
 .Details {
     background-image: url("../media/images/pattern.jpg");
-    width: 38%;
+    width: 40%;
     height: 100vh;
     position: relative;
     float: left;
@@ -20,7 +28,6 @@
     background-position: left;
     white-space: nowrap;
     z-index: 5;
-    /* color: white; */
 }
 
 /* this is for the logo design */
@@ -48,7 +55,6 @@
 /* this is for the hello part in the website */
 
 .greeting {
-    position: relative;
     color: rgb(52, 144, 230, 0.5);;
     font-family: 'Varela Round', sans-serif;
     margin: 25% 0% 0% 20%;
@@ -57,16 +63,12 @@
 
 /* this is for the i'm milan part  */
 .intro {
-    position: relative;
-    margin-top: 17%;
-    margin-left: 20%;
+    margin: -12% 0% 0% 20%;
     color: rgb(214, 233, 223);
     font-family: 'Baloo Tammudu 2', cursive;
     font-size: 170px;
     letter-spacing: 15px;
-    padding-bottom: 0;
-    display: inline-block;
-    line-height: 0%;
+    padding: 0;
 }
 
 /* this is for the skills displayed in the landing page. */
@@ -74,13 +76,14 @@
     font-family: 'Syne Mono', monospace;
     color: rgb(214, 233, 223);
     font-size: 30px;
-    margin: 10% 0% 0% 20%;
+    margin: 0% 0% -5% 20%;
     list-style: none;
     text-transform: uppercase;
 }
 
 /* this is for the hire me button style in the landing page.  */
 .hire {
+    position: relative;
     background-color: transparent;
     border: 0.1px solid rgb(214, 233, 223);
     color: rgb(214, 233, 223);
@@ -90,7 +93,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4% 0% 0% 20%;
+    margin: 10% 0% 0% 20%;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -107,20 +110,25 @@
 }
 
 
+/* this is for the social media icon */
 
 .social {
-    margin: 20% 0% 0% 20%;
+    position: absolute;
+    /* margin: 0% 0% 5% 20%; */
+    bottom: 5%;
+    left: 20%;
 }
 /* this is for the social icon on the landing page  */
 .social ul li {
     margin-right: 4%;
     border: 1px solid rgb(214, 233, 223);
     display: inline-block;
-    /* padding: 15px; */
+    padding: 15px;
     border-radius: 50%;
     transition-duration: 0.4s;
 }
 
+/* This is the style for the link anchor tag  */
 .social ul li a {
     color: rgb(214, 233, 223);
     text-decoration: none;
@@ -129,29 +137,16 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* this is for the image of the person div */
 .Picture {
     float: left;
-    width: 55%;
+    width: 60%;
     height: 100vh;
 }
 
 /* this is for the person in the landing page */
 .person {
+    display: flex;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -195,4 +190,9 @@
     display: block;
     padding: 20px;
     margin: auto;
+}
+
+.active {
+    background-color: white;
+    color: black;
 }
