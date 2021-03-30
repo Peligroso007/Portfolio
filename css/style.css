@@ -8,6 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
 
 /* this is the content in the landing page  */
 .content {
@@ -55,7 +59,7 @@
 /* this is for the hello part in the website */
 
 .greeting {
-    color: rgb(52, 144, 230, 0.5);;
+    color: rgb(52, 144, 230, 0.5);
     font-family: 'Varela Round', sans-serif;
     margin: 25% 0% 0% 20%;
     font-size: 30px;
@@ -72,11 +76,14 @@
 }
 
 /* this is for the skills displayed in the landing page. */
+/* .skillssection {
+    margin: 0% 0% -50% 20%;
+} */
 .skills {
     font-family: 'Syne Mono', monospace;
     color: rgb(214, 233, 223);
     font-size: 30px;
-    margin: 0% 0% -5% 20%;
+    margin: -20% 0% 0% 20%;
     list-style: none;
     text-transform: uppercase;
 }
