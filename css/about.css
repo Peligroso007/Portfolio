@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.section{
+    background-color: #060611;
+    height: 100vh;
+    padding: 0 30px;
+    display: flex;
+    
+
+}
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+/* Starting of title */
+}
+.section-title{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+    
+}
+.section-title h1{
+    font-size: 40px;
+    color: rgb(214, 233, 223);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+}
+.section-title h1::before{
+    content:'' ;
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    background-color: #ec1839;
+
+}
+.section-title h1::after{
+    content:'' ;
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    background-color: #ec1839;
+
+}
+
+/* end of title */
+
+
+.flex{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+
+
+}
+.pad-15{
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+/* starting of subheading */
+.about .about-content{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+    
+    
+}
+.about .about-content .about-text{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width:97%;
+    
+    
+
+    
+
+}
+.about .about-content .about-text h2{
+    font-size: 24px;
+    font-family: 'Rubik' sans-serif;
+    font-weight: 700;
+    color: rgb(214, 233, 223);
+    margin-bottom: 15px;
+}
+/* ending of subheading */
+
+/* starting of paragraph */
+.about .about-content .about-text p{
+    font-size: 15px;
+    /* font-family: 'Rubik' sans-serif; */
+    font-weight: 100;
+    color: rgb(214, 233, 223);
+    line-height: 20px;
+    margin: 0;
+}
+/* ending of paragraph */
+
+/* starting of personal information */
+.about .about-content .personal-info{
+    /* background-color: #ec1839; */
+    -ms-flex: 0 0 50%;
+       flex: 0 0 50%;
+       max-width: 50%;
+       margin-top: 50px;
+
+}
+.about .about-content .personal-info .info-item{
+    -ms-flex: 0 0 40%;
+       flex: 0 0 40%;
+       max-width: 40%;
+
+}
+.about .about-content .personal-info .info-item p{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(214, 233, 223); 
+    border-bottom: 1px solid #e8dfec;
+}
+.about .about-content .personal-info .info-item p span{
+    font-weight: 400;
+    color: rgb(214, 233, 223);
+    margin-left: 4px;
+    display: inline-block;
+}
+/* ending of personal information */
+
+
+.about .about-content .skills{
+    -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-top: 50px; 
+
+
+
+}
+
+/* starting of cv btn  */
+ .about .about-content .btn{
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 100px; 
+        margin-left: 200px;
+        
+ } 
+
+
+.btn{
+    background-color: transparent;
+    border: 1px solid rgb(214, 233, 223);
+    color: rgb(214, 233, 223);
+    padding: 25px 50px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4% 0% 0% 20%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.btn { 
+    color: rgb(214, 233, 223);
+    border: 2px solid rgb(214, 233, 223);
+}
+  
+  /* this is for the hire me page in the landing page in hover state  */
+  .btn:hover {
+    background-color: rgb(214, 233, 223);
+    color: black;
+}
+/* ending of btn  */
+
+/* starting of skill  */
+
+.about .about-content .skills .skill-item{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+
+}
+.about .about-content .skills .skill-item h3{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(214, 233, 223);
+    text-transform: capitalize;
+    margin: 0;
+
+}
+.about .about-content .skills .skill-item .progress{
+    background-color: #8b8bad1e;
+    height: 8px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+.about .about-content .skills .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%; 
+    background-color: #ec1839; 
+    border-radius: 4px;
+}
+.about .about-content .skills .skill-item .skill-percent{
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    color: #302e4d;  
+    top: -40px;
+    font-weight: 400;
+}
+
+/* ending of skills  */
+
+/* strting of menubar */
+.menu {
+    position: relative;
+    float: right;
+    background: rgb(0, 0, 0);
+    width: 7%;
+    height: 100vh;
+    text-align: center;
+}
+
+.menu ul {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    list-style-type: none;
+    
+}
+.menu ul li {
+    position: relative;
+    width: 100%; 
+    text-align:center;
+    transition-duration: 0.6s;
+}
+
+.menu ul li a {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(214, 233, 223);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
