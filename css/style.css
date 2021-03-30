@@ -67,10 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* this is for the i'm milan part  */
 .intro {
-    margin: -12% 0% 0% 20%;
+    margin: -10% 0% 0% 20%;
     color: rgb(214, 233, 223);
     font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 170px;
+    font-size: 150px;
     letter-spacing: 15px;
     padding: 0;
 }
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Syne Mono', monospace;
     color: rgb(214, 233, 223);
     font-size: 30px;
-    margin: -20% 0% 0% 20%;
+    margin: -17% 0% 0% 20%;
     list-style: none;
     text-transform: uppercase;
 }
