@@ -52,14 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo span {
-    color: rgb(52, 144, 230, 0.8);
+    color: #54ec18b6;
 }
 /* logo design end */
 
 /* this is for the hello part in the website */
 
 .greeting {
-    color: rgb(52, 144, 230, 0.5);
+    color: #54ec18b6;
     font-family: 'Varela Round', sans-serif;
     margin: 12vh 0% 0% 20%;
     font-size: 30px;
