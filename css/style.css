@@ -95,13 +95,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     border: 0.1px solid rgb(214, 233, 223);
     color: rgb(214, 233, 223);
-    padding: 25px 40px;
+    padding: 20px 30px;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 5vh 0% 0% 20%;
+    margin: 4vh 0% 0% 20%;
     transition-duration: 0.4s;
     cursor: pointer;
 }
