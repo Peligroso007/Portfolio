@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* this is for the logo design */
 .logo {
-    margin: 10% 0% 0% 20%;
+    margin: 10vh 0% 0% 20%;
     color: rgb(214, 233, 223);
     font-family: 'Varela Round', sans-serif;
     z-index: 3;
@@ -61,13 +61,13 @@ h1, h2, h3, h4, h5, h6 {
 .greeting {
     color: rgb(52, 144, 230, 0.5);
     font-family: 'Varela Round', sans-serif;
-    margin: 25% 0% 0% 20%;
+    margin: 12vh 0% 0% 20%;
     font-size: 30px;
 }
 
 /* this is for the i'm milan part  */
 .intro {
-    margin: -10% 0% 0% 20%;
+    margin: -5vh 0% 0% 20%;
     color: rgb(214, 233, 223);
     font-family: 'Baloo Tammudu 2', cursive;
     font-size: 150px;
@@ -76,14 +76,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* this is for the skills displayed in the landing page. */
-/* .skillssection {
-    margin: 0% 0% -50% 20%;
-} */
+.skillssection {
+    margin: -15vh 0% 0% 20%;
+}
+
 .skills {
     font-family: 'Syne Mono', monospace;
     color: rgb(214, 233, 223);
     font-size: 30px;
-    margin: -17% 0% 0% 20%;
+    /* margin: -17vh 0% 0% 20%; */
     list-style: none;
     text-transform: uppercase;
 }
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10% 0% 0% 20%;
+    margin: 5vh 0% 0% 20%;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -122,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 .social {
     position: absolute;
     /* margin: 0% 0% 5% 20%; */
-    bottom: 5%;
+    bottom: 5vh;
     left: 20%;
 }
 /* this is for the social icon on the landing page  */
@@ -130,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 4%;
     border: 1px solid rgb(214, 233, 223);
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
     transition-duration: 0.4s;
 }
@@ -140,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(214, 233, 223);
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -195,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     display: block;
-    padding: 20px;
+    padding: 15px;
     margin: auto;
 }
 
